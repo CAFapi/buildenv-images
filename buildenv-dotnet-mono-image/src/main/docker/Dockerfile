@@ -16,7 +16,6 @@
 
 ARG DOTNET_IMAGE
 FROM $DOTNET_IMAGE
-#FROM ${projectDockerRegistry}/cafapi/buildenv-dotnet
 
 # Copy in zypper repo key
 COPY dev_zypper_repo_key.pub .

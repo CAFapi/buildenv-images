@@ -16,7 +16,6 @@
 
 ARG JDK17_IMAGE
 FROM $JDK17_IMAGE
-#FROM ${projectDockerRegistry}/cafapi/buildenv-jdk17
 CMD ["bash"]
 
 RUN zypper -n install libicu wget
