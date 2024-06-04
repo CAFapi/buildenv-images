@@ -7,7 +7,7 @@ The images which are built in this project are:
 - buildenv-jdk11
 - buildenv-jdk17
   - buildenv-dotnet
-  - buildenv-dotnet-mono
+    - buildenv-dotnet-mono
 
 ### Usage
 
