@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright 2019-2024 Open Text.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.cafapi</groupId>
+    <artifactId>buildenv-images-aggregator</artifactId>
+    <version>4.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Buildenv Images Aggregator</name>
+    <description>Collection of openSUSE based build environment images.</description>
+    <url>https://github.com/CAFapi/opensuse-base-images</url>
+
+    <inceptionYear>2019</inceptionYear>
+
+    <parent>
+        <groupId>com.github.cafapi</groupId>
+        <artifactId>caf-common-parent</artifactId>
+        <version>5.0.0-431</version>
+    </parent>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>dermot-hardy</id>
+            <name>Dermot Hardy</name>
+            <email>dermot.hardy@microfocus.com</email>
+        </developer>
+        <developer>
+            <id>michael-bryson</id>
+            <name>Michael Bryson</name>
+            <email>michael.bryson@microfocus.com</email>
+        </developer>
+    </developers>
+
+    <modules>
+        <module>buildenv-jdk8-image</module>
+        <module>buildenv-jdk11-image</module>
+        <module>buildenv-jdk17-image</module>
+        <module>buildenv-dotnet-image</module>
+        <module>buildenv-dotnet-mono-image</module>
+    </modules>
+
+    <properties>
+        <copyrightYear>2024</copyrightYear>
+        <maven.install.skip>true</maven.install.skip>
+        <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
+        <dockerHubOrganization>cafapi</dockerHubOrganization>
+        <dockerCafImagePrefix>${dockerImagePrefix}${dockerHubOrganization}${dockerOrgSeperator}</dockerCafImagePrefix>
+        <dockerProjectVersion>${dockerVersionSeperator}${project.version}</dockerProjectVersion>
+        <projectDockerRegistry>buildenv-images-${project.version}.project-registries.local</projectDockerRegistry>
+    </properties>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>com.github.cafapi.plugins.docker.versions</groupId>
+                    <artifactId>docker-versions-maven-plugin</artifactId>
+                    <version>1.0.0-29</version>
+                </plugin>
+                <plugin>
+                    <groupId>io.fabric8</groupId>
+                    <artifactId>docker-maven-plugin</artifactId>
+                    <version>0.43.4</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>com.github.cafapi.plugins.docker.versions</groupId>
+                <artifactId>docker-versions-maven-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <imageManagement>
+                        <image>
+                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk8</repository>
+                            <tag>4.0.0</tag>
+                            <digest>sha256:cefcd1a4ae8599c8aaf0d58ad8e0da674fb9fedf75987bdbcd3706985a14e965</digest>
+                        </image>
+                        <image>
+                            <repository>${dockerHubPublic}/library/maven</repository>
+                            <targetRepository>maven-jdk8</targetRepository>
+                            <tag>3.9.3-eclipse-temurin-8</tag>
+                            <digest>sha256:298f8fa980d53f58859122ca4c74d1e1468e61bec42c00c67a54169769286acf</digest>
+                        </image>
+                        <image>
+                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk11</repository>
+                            <tag>4.0.0</tag>
+                            <digest>sha256:0ff93ccd104f9b41dd9225c534e70db1636841ad2b4e42518cb08c0e03e4ca59</digest>
+                        </image>
+                        <image>
+                            <repository>${dockerHubPublic}/library/maven</repository>
+                            <targetRepository>maven-jdk11</targetRepository>
+                            <tag>3.9.3-eclipse-temurin-11</tag>
+                            <digest>sha256:0d1560ce0dc20348d401aa0df6690e7ba4d951c31f7aedb1b91478336f25ec70</digest>
+                        </image>
+                        <image>
+                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk17</repository>
+                            <tag>4.0.0</tag>
+                            <digest>sha256:36563ddc4666611942020cd40e52f440500c548c0a98a299c828117220d8a5c5</digest>
+                        </image>
+                        <image>
+                            <repository>${dockerHubPublic}/library/maven</repository>
+                            <targetRepository>maven-jdk17</targetRepository>
+                            <tag>3.9.3-eclipse-temurin-17</tag>
+                            <digest>sha256:e20347d8605522bacb96bf5ce76b53d3b06a5041f524111451cfabb7a37d97bb</digest>
+                        </image>
+                    </imageManagement>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <scm>
+        <connection>scm:git:https://github.com/CAFapi/buildenv-images.git</connection>
+        <developerConnection>scm:git:https://github.com/CAFapi/buildenv-images.git</developerConnection>
+        <url>https://github.com/CAFapi/buildenv-images</url>
+    </scm>
+
+</project>
