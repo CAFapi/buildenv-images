@@ -100,39 +100,39 @@
                     <imageManagement>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk8</repository>
-                            <tag>4.0.1</tag>
-                            <digest>sha256:da4e4c3128c1d68eb0a12228566ac4aee57f65d02eb46b4511ff4a291ab2222f</digest>
+                            <tag>4.1.0</tag>
+                            <digest>sha256:e72be9bb646e05b6be1ae2a21abe08326cc9c683ef8c512da9c9a27fefb26a10</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk8</targetRepository>
                             <tag>3.9.7-eclipse-temurin-8</tag>
-                            <latestTag>3-eclipse-temurin-8</latestTag>
-                            <digest>sha256:5211354b835cad5b76adc32c505fa7b3f0a340196e104b334d12ece529a6eeb0</digest>
+<!--                            <latestTag>3-eclipse-temurin-8</latestTag>
+                            <digest>7da6a0c17ed2488a4bb311463229f702b266782a3208f7d53549286652c1a4fc</digest>-->
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk11</repository>
-                            <tag>4.0.1</tag>
-                            <digest>sha256:0b0712f6d8d1a65c4873b0f2207eb3210bd96705d5253a239979400ae07c05b9</digest>
+                            <tag>4.1.0</tag>
+                            <digest>sha256:af622a044b6a711e9566d48426782b5c2f5956617f5d7a01f3ff4342be48312c</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk11</targetRepository>
                             <tag>3.9.7-eclipse-temurin-11</tag>
-                            <latestTag>3-eclipse-temurin-11</latestTag>
-                            <digest>sha256:c118a32695b6c768d8e9ba7932802f8226eac15c1b22e901ecb5dd9386424c57</digest>
+<!--                            <latestTag>3-eclipse-temurin-11</latestTag>
+                            <digest>sha256:6a6f5cd748c73058352f9f7136295d7e4b81407cc907533438c89c1c90d94bc3</digest>-->
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk17</repository>
-                            <tag>4.0.1</tag>
-                            <digest>sha256:75253c07207ba70d447e07986312ed13069673af2d2c88240cd1a64366cba673</digest>
+                            <tag>4.1.0</tag>
+                            <digest>sha256:15c2b6ea9812d6d6eed2b92c155f183f8c2afcead48fd2887141f351c7de5af6</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk17</targetRepository>
                             <tag>3.9.7-eclipse-temurin-17</tag>
-                            <latestTag>3-eclipse-temurin-17</latestTag>
-                            <digest>sha256:c9f6c7f42971caa42d15690adb66b9f18c2caf6ee60b816159788285e333876f</digest>
+<!--                            <latestTag>3-eclipse-temurin-17</latestTag>
+                            <digest>sha256:ee9fee23b5c56e4d2d5a7feb7729df8ca41675112930a7fbead76288c5ca7fc8</digest>-->
                         </image>
                     </imageManagement>
                 </configuration>
