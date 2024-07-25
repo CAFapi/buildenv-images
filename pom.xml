@@ -106,9 +106,9 @@
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk8</targetRepository>
-                            <tag>3.9.7-eclipse-temurin-8</tag>
+                            <tag>3.9.3-eclipse-temurin-8</tag>
                             <latestTag>3-eclipse-temurin-8</latestTag>
-                            <digest>sha256:0483d91cfc9848c648e6ef11485e75aabc1e2ce4b9329b511cf9f2e5ea1835c2</digest>
+                            <digest>sha256:298f8fa980d53f58859122ca4c74d1e1468e61bec42c00c67a54169769286acf</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk11</repository>
@@ -118,9 +118,9 @@
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk11</targetRepository>
-                            <tag>3.9.7-eclipse-temurin-11</tag>
+                            <tag>3.9.3-eclipse-temurin-11</tag>
                             <latestTag>3-eclipse-temurin-11</latestTag>
-                            <digest>sha256:e2627a39aed519b42e65f628018f60ad8b6781a8886eb9fdd6c4933473f0249c</digest>
+                            <digest>sha256:0d1560ce0dc20348d401aa0df6690e7ba4d951c31f7aedb1b91478336f25ec70</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk17</repository>
@@ -130,9 +130,9 @@
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk17</targetRepository>
-                            <tag>3.9.7-eclipse-temurin-17</tag>
+                            <tag>3.9.3-eclipse-temurin-17</tag>
                             <latestTag>3-eclipse-temurin-17</latestTag>
-                            <digest>sha256:8d6e481d7d951f228465a846e6c7489396d7b476e937c1f19947041f2e45b518</digest>
+                            <digest>sha256:e20347d8605522bacb96bf5ce76b53d3b06a5041f524111451cfabb7a37d97bb</digest>
                         </image>
                     </imageManagement>
                 </configuration>
