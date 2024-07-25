@@ -107,8 +107,8 @@
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk8</targetRepository>
                             <tag>3.9.7-eclipse-temurin-8</tag>
-<!--                            <latestTag>3-eclipse-temurin-8</latestTag>
-                            <digest>7da6a0c17ed2488a4bb311463229f702b266782a3208f7d53549286652c1a4fc</digest>-->
+                            <latestTag>3-eclipse-temurin-8</latestTag>
+                            <digest>sha256:0483d91cfc9848c648e6ef11485e75aabc1e2ce4b9329b511cf9f2e5ea1835c2</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk11</repository>
@@ -119,8 +119,8 @@
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk11</targetRepository>
                             <tag>3.9.7-eclipse-temurin-11</tag>
-<!--                            <latestTag>3-eclipse-temurin-11</latestTag>
-                            <digest>sha256:6a6f5cd748c73058352f9f7136295d7e4b81407cc907533438c89c1c90d94bc3</digest>-->
+                            <latestTag>3-eclipse-temurin-11</latestTag>
+                            <digest>sha256:e2627a39aed519b42e65f628018f60ad8b6781a8886eb9fdd6c4933473f0249c</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk17</repository>
@@ -131,8 +131,8 @@
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk17</targetRepository>
                             <tag>3.9.7-eclipse-temurin-17</tag>
-<!--                            <latestTag>3-eclipse-temurin-17</latestTag>
-                            <digest>sha256:ee9fee23b5c56e4d2d5a7feb7729df8ca41675112930a7fbead76288c5ca7fc8</digest>-->
+                            <latestTag>3-eclipse-temurin-17</latestTag>
+                            <digest>sha256:8d6e481d7d951f228465a846e6c7489396d7b476e937c1f19947041f2e45b518</digest>
                         </image>
                     </imageManagement>
                 </configuration>
