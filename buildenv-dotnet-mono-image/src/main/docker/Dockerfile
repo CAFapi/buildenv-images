@@ -25,4 +25,4 @@ RUN zypper -n addrepo https://download.opensuse.org/repositories/home:lemmy04/15
     rm dev_zypper_repo_key.pub && \
     zypper -n refresh && \
     zypper -n update && \
-    zypper -n install msbuild
+    zypper -n jq install msbuild
