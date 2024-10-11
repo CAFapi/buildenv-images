@@ -18,7 +18,7 @@ ARG JDK17_IMAGE
 FROM $JDK17_IMAGE
 CMD ["bash"]
 
-RUN zypper -n install libicu wget
+RUN zypper -n install jq libicu wget
 RUN rpm --import https://packages.microsoft.com/keys/microsoft.asc
 RUN wget https://packages.microsoft.com/config/opensuse/15/prod.repo
 RUN mv prod.repo /etc/zypp/repos.d/microsoft-prod.repo
