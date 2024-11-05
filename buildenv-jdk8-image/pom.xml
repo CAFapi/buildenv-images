@@ -24,7 +24,7 @@
     <parent>
         <groupId>com.github.cafapi</groupId>
         <artifactId>buildenv-images-aggregator</artifactId>
-        <version>4.1.1-SNAPSHOT</version>
+        <version>4.1.1-23</version>
     </parent>
 
     <artifactId>buildenv-jdk8-image</artifactId>
