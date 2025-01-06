@@ -62,6 +62,7 @@
         <module>buildenv-jdk8-image</module>
         <module>buildenv-jdk11-image</module>
         <module>buildenv-jdk17-image</module>
+        <module>buildenv-jdk21-image</module>
         <module>buildenv-dotnet-image</module>
         <module>buildenv-dotnet-mono-image</module>
     </modules>
@@ -133,6 +134,18 @@
                             <tag>3.9.3-eclipse-temurin-17</tag>
                             <latestTag>3-eclipse-temurin-17</latestTag>
                             <digest>sha256:e20347d8605522bacb96bf5ce76b53d3b06a5041f524111451cfabb7a37d97bb</digest>
+                        </image>
+                        <image>
+                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk21</repository>
+                            <tag>4.2.3</tag>
+                            <digest>sha256:0264cc21a68c5974c27d6245d9da74fc78c80bc65f2b966f58dc386105d5d86a</digest>
+                        </image>
+                        <image>
+                            <repository>${dockerHubPublic}/library/maven</repository>
+                            <targetRepository>maven-jdk21</targetRepository>
+                            <tag>3.9.9-eclipse-temurin-21</tag>
+                            <latestTag>3-eclipse-temurin-21</latestTag>
+                            <digest>sha256:b89ede2635fb8ebd9ba7a3f7d56140f2bd31337b8b0e9fa586b657ee003307a7</digest>
                         </image>
                     </imageManagement>
                 </configuration>
