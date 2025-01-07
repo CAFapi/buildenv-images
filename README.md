@@ -8,3 +8,4 @@ The images which are built in this project are:
 - [buildenv-jdk17](buildenv-jdk17-image)
   - [buildenv-dotnet](buildenv-dotnet-image)
     - [buildenv-dotnet-mono](buildenv-dotnet-mono-image)
+- [buildenv-jdk21](buildenv-jdk21-image)
