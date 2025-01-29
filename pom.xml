@@ -107,9 +107,7 @@
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk8</targetRepository>
-                            <tag>3.9.3-eclipse-temurin-8</tag>
-                            <latestTag>3-eclipse-temurin-8</latestTag>
-                            <digest>sha256:298f8fa980d53f58859122ca4c74d1e1468e61bec42c00c67a54169769286acf</digest>
+                            <tag>3.9.9-eclipse-temurin-8</tag>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk11</repository>
@@ -119,9 +117,7 @@
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk11</targetRepository>
-                            <tag>3.9.3-eclipse-temurin-11</tag>
-                            <latestTag>3-eclipse-temurin-11</latestTag>
-                            <digest>sha256:0d1560ce0dc20348d401aa0df6690e7ba4d951c31f7aedb1b91478336f25ec70</digest>
+                            <tag>3.9.9-eclipse-temurin-11</tag>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk17</repository>
@@ -131,9 +127,7 @@
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk17</targetRepository>
-                            <tag>3.9.3-eclipse-temurin-17</tag>
-                            <latestTag>3-eclipse-temurin-17</latestTag>
-                            <digest>sha256:e20347d8605522bacb96bf5ce76b53d3b06a5041f524111451cfabb7a37d97bb</digest>
+                            <tag>3.9.9-eclipse-temurin-17</tag>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk21</repository>
@@ -144,8 +138,6 @@
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk21</targetRepository>
                             <tag>3.9.9-eclipse-temurin-21</tag>
-                            <latestTag>3-eclipse-temurin-21</latestTag>
-                            <digest>sha256:b89ede2635fb8ebd9ba7a3f7d56140f2bd31337b8b0e9fa586b657ee003307a7</digest>
                         </image>
                     </imageManagement>
                 </configuration>
