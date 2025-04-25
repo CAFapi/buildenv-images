@@ -20,7 +20,7 @@ FROM $DOTNET_IMAGE
 # Copy in zypper repo key
 COPY dev_zypper_repo_key.pub .
 
-RUN zypper -n addrepo https://download.opensuse.org/repositories/home:lemmy04/15.5/home:lemmy04.repo && \
+RUN zypper -n addrepo https://download.opensuse.org/repositories/home:guoyunhe/15.6/home:guoyunhe.repo && \
     rpmkeys --import dev_zypper_repo_key.pub && \
     rm dev_zypper_repo_key.pub && \
     zypper -n refresh && \
