@@ -18,11 +18,11 @@ ARG DOTNET_IMAGE
 FROM $DOTNET_IMAGE
 
 # Copy in zypper repo key
-COPY dev_zypper_repo_key.pub .
+COPY home_guoyunhe_key.gpg .
 
 RUN zypper -n addrepo https://download.opensuse.org/repositories/home:guoyunhe/15.6/home:guoyunhe.repo && \
-    rpmkeys --import dev_zypper_repo_key.pub && \
-    rm dev_zypper_repo_key.pub && \
+    rpmkeys --import home_guoyunhe_key.gpg && \
+    rm home_guoyunhe_key.gpg && \
     zypper -n refresh && \
     zypper -n update && \
     zypper -n install jq msbuild
