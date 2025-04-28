@@ -23,7 +23,7 @@
 
     <groupId>com.github.cafapi</groupId>
     <artifactId>buildenv-images-aggregator</artifactId>
-    <version>5.1.0-SNAPSHOT</version>
+    <version>6.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Buildenv Images Aggregator</name>
@@ -64,7 +64,6 @@
         <module>buildenv-jdk17-image</module>
         <module>buildenv-jdk21-image</module>
         <module>buildenv-dotnet-image</module>
-        <module>buildenv-dotnet-mono-image</module>
     </modules>
 
     <properties>
