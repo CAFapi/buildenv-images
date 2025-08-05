@@ -100,8 +100,8 @@
                     <imageManagement>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk8</repository>
-                            <tag>4.2.9</tag>
-                            <digest>sha256:5ddd19144131250b5ff4b416bf20e8fdf7b21c633427e3e7010b20795578f6c1</digest>
+                            <tag>4.2.10</tag>
+                            <digest>sha256:083f58338fc03b4d843c3e19cb3fbdbf072b9d649befc2cd3b8db7b1c0a0e4ca</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
@@ -110,8 +110,8 @@
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk11</repository>
-                            <tag>4.2.9</tag>
-                            <digest>sha256:a240f220a291da12d0b4a7a5c94567332440cfc61db5e562870d02161eff94d4</digest>
+                            <tag>4.2.10</tag>
+                            <digest>sha256:b6fd720ef786951450815acaad177f1e7315e01025565338d0bd1a3ade96ab85</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
@@ -120,8 +120,8 @@
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk17</repository>
-                            <tag>4.2.9</tag>
-                            <digest>sha256:48cc054941594e46f25862820fc0a5532cd9c27b6bc84031ecc84251f7e71a51</digest>
+                            <tag>4.2.10</tag>
+                            <digest>sha256:a55c567fb8ce48d450cc28febbde6b8ec858853ebd3a8e19dd9f47cc7dab349b</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
@@ -130,8 +130,8 @@
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk21</repository>
-                            <tag>4.2.9</tag>
-                            <digest>sha256:ee31921b346c02b0e65da6b0b31c433e3d7a9fd4c1bafb3ed20dc28f6805c596</digest>
+                            <tag>4.2.10</tag>
+                            <digest>sha256:ec83de1b608e3585fd7717197fc5ccf7d0918e5571861069539d8273a553f986</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
