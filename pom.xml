@@ -63,7 +63,7 @@
         <module>buildenv-jdk11-image</module>
         <module>buildenv-jdk17-image</module>
         <module>buildenv-jdk21-image</module>
-        <!--<module>buildenv-dotnet-image</module>-->
+        <module>buildenv-dotnet-image</module>
     </modules>
 
     <properties>
