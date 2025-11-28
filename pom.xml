@@ -99,9 +99,9 @@
                 <configuration>
                     <imageManagement>
                         <image>
-                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk8</repository>
-                            <tag>4.3.1</tag>
-                            <digest>sha256:f269c15a84864f12a404fe83049558d40282ca097601e8a7f424a6608d987084</digest>
+                            <targetRepository>cafapi/opensuse-jdk8</targetRepository>
+                            <repository>${dockerHubPublic}/cafapi/prereleases</repository>
+                            <tag>opensuse-jdk8-5.0.0-SNAPSHOT</tag>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
@@ -109,9 +109,9 @@
                             <tag>3.9.11-eclipse-temurin-8</tag>
                         </image>
                         <image>
-                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk11</repository>
-                            <tag>4.3.1</tag>
-                            <digest>sha256:426797baf9b9483093b5ac756f7b722774d76ba71f16910507f2d30e29dfdd4e</digest>
+                            <targetRepository>cafapi/opensuse-jdk11</targetRepository>
+                            <repository>${dockerHubPublic}/cafapi/prereleases</repository>
+                            <tag>opensuse-jdk11-5.0.0-SNAPSHOT</tag>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
@@ -119,9 +119,9 @@
                             <tag>3.9.11-eclipse-temurin-11</tag>
                         </image>
                         <image>
-                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk17</repository>
-                            <tag>4.3.1</tag>
-                            <digest>sha256:d5314d046ee72313d423b4a6c4cfdca830778acf8f5d396c4e29b221245aee57</digest>
+                            <targetRepository>cafapi/opensuse-jdk17</targetRepository>
+                            <repository>${dockerHubPublic}/cafapi/prereleases</repository>
+                            <tag>opensuse-jdk17-5.0.0-SNAPSHOT</tag>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
@@ -129,9 +129,9 @@
                             <tag>3.9.11-eclipse-temurin-17</tag>
                         </image>
                         <image>
-                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk21</repository>
-                            <tag>4.3.1</tag>
-                            <digest>sha256:7eee89eb273142cccba0b0b7a0b42183c1f330f7ad8ca0d79e42996ffa45ddb5</digest>
+                            <targetRepository>cafapi/opensuse-jdk21</targetRepository>
+                            <repository>${dockerHubPublic}/cafapi/prereleases</repository>
+                            <tag>opensuse-jdk21-5.0.0-SNAPSHOT</tag>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
