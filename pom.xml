@@ -106,7 +106,7 @@
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk8</targetRepository>
-                            <tag>3.9.11-eclipse-temurin-8</tag>
+                            <tag>3.9.12-eclipse-temurin-8</tag>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk11</repository>
@@ -116,7 +116,7 @@
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk11</targetRepository>
-                            <tag>3.9.11-eclipse-temurin-11</tag>
+                            <tag>3.9.12-eclipse-temurin-11</tag>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk17</repository>
@@ -126,7 +126,7 @@
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk17</targetRepository>
-                            <tag>3.9.11-eclipse-temurin-17</tag>
+                            <tag>3.9.12-eclipse-temurin-17</tag>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk21</repository>
@@ -136,7 +136,7 @@
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk21</targetRepository>
-                            <tag>3.9.11-eclipse-temurin-21</tag>
+                            <tag>3.9.12-eclipse-temurin-21</tag>
                         </image>
                     </imageManagement>
                 </configuration>
