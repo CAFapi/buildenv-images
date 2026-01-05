@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-    Copyright 2019-2025 Open Text.
+    Copyright 2019-2026 Open Text.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -67,7 +67,7 @@
     </modules>
 
     <properties>
-        <copyrightYear>2025</copyrightYear>
+        <copyrightYear>2026</copyrightYear>
         <maven.install.skip>true</maven.install.skip>
         <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
         <dockerHubOrganization>cafapi</dockerHubOrganization>
@@ -99,9 +99,9 @@
                 <configuration>
                     <imageManagement>
                         <image>
-                            <targetRepository>cafapi/opensuse-jdk8</targetRepository>
-                            <repository>${dockerHubPublic}/cafapi/prereleases</repository>
-                            <tag>opensuse-jdk8-5.1.0-SNAPSHOT</tag>
+                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk8</repository>
+                            <tag>5.1.0</tag>
+                            <digest>sha256:76079967ccd520b865cff42865be76d4f4a1dfcbb4a6ed8d63fa0397a860ff36</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
@@ -109,9 +109,9 @@
                             <tag>3.9.11-eclipse-temurin-8</tag>
                         </image>
                         <image>
-                            <targetRepository>cafapi/opensuse-jdk11</targetRepository>
-                            <repository>${dockerHubPublic}/cafapi/prereleases</repository>
-                            <tag>opensuse-jdk11-5.1.0-SNAPSHOT</tag>
+                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk11</repository>
+                            <tag>5.1.0</tag>
+                            <digest>sha256:1e50223dc5256a0cd2ccf398e421cb148f694e21516ddf98d1699931baee3ba2</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
@@ -119,9 +119,9 @@
                             <tag>3.9.11-eclipse-temurin-11</tag>
                         </image>
                         <image>
-                            <targetRepository>cafapi/opensuse-jdk17</targetRepository>
-                            <repository>${dockerHubPublic}/cafapi/prereleases</repository>
-                            <tag>opensuse-jdk17-5.1.0-SNAPSHOT</tag>
+                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk17</repository>
+                            <tag>5.1.0</tag>
+                            <digest>sha256:02da7714d0dc1b7cec64686bac128f422b6d670c1433243c1740bcd3dbd600c9</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
@@ -129,9 +129,9 @@
                             <tag>3.9.11-eclipse-temurin-17</tag>
                         </image>
                         <image>
-                            <targetRepository>cafapi/opensuse-jdk21</targetRepository>
-                            <repository>${dockerHubPublic}/cafapi/prereleases</repository>
-                            <tag>opensuse-jdk21-5.1.0-SNAPSHOT</tag>
+                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk21</repository>
+                            <tag>5.1.0</tag>
+                            <digest>sha256:34b9a9784445d9f3d4c86d474e6e1764a2a61e0a952bd82a115c1484f5b2ebd5</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
