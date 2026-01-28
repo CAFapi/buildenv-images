@@ -25,4 +25,5 @@ RUN mv prod.repo /etc/zypp/repos.d/microsoft-prod.repo
 RUN chown root:root /etc/zypp/repos.d/microsoft-prod.repo
 RUN zypper -n install dotnet-sdk-10.0
 RUN dotnet tool install --tool-path=/dotnet/tools/ dotnet-sonarscanner
+RUN dotnet tool install --tool-path=/dotnet/tools/ docfx
 ENV PATH="/dotnet/tools:$PATH"
