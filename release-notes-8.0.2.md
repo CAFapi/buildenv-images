@@ -2,10 +2,7 @@
 ${version-number}
 
 #### New Features
-- None
-
-#### Patch Fixes Included
-- This release includes OS package updates only.
+- US1090008: Update maven to [3.9.14](https://maven.apache.org/docs/3.9.14/release-notes.html)
 
 #### Known Issues
 - None
