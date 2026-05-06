@@ -18,5 +18,4 @@ ARG JDK17_IMAGE
 FROM $JDK17_IMAGE
 CMD ["bash"]
 
-RUN zypper -n install gcc-c++ git \
-    && git config --global --add safe.directory "*"
+RUN zypper -n install gcc-c++
