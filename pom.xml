@@ -23,7 +23,7 @@
 
     <groupId>com.github.cafapi</groupId>
     <artifactId>buildenv-images-aggregator</artifactId>
-    <version>8.3.0-SNAPSHOT</version>
+    <version>9.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Buildenv Images Aggregator</name>
@@ -59,10 +59,9 @@
     </developers>
 
     <modules>
-        <module>buildenv-jdk8-image</module>
-        <module>buildenv-jdk11-image</module>
         <module>buildenv-jdk17-image</module>
         <module>buildenv-jdk21-image</module>
+        <module>buildenv-jdk25-image</module>
         <module>buildenv-cpp-image</module>
         <module>buildenv-dotnet-image</module>
         <module>buildenv-tofu-image</module>
@@ -101,29 +100,9 @@
                 <configuration>
                     <imageManagement>
                         <image>
-                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk8</repository>
-                            <tag>6.0.1</tag>
-                            <digest>sha256:52c79df50ddddeedab884c1370afa4290065b46df01dc925299653bee0282d9c</digest>
-                        </image>
-                        <image>
-                            <repository>${dockerHubPublic}/library/maven</repository>
-                            <targetRepository>maven-jdk8</targetRepository>
-                            <tag>3.9.15-eclipse-temurin-8</tag>
-                        </image>
-                        <image>
-                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk11</repository>
-                            <tag>6.0.1</tag>
-                            <digest>sha256:2135a30aac1b02e7476cc0d23cee2507733da9ae19c681b8f0c114266bc52eeb</digest>
-                        </image>
-                        <image>
-                            <repository>${dockerHubPublic}/library/maven</repository>
-                            <targetRepository>maven-jdk11</targetRepository>
-                            <tag>3.9.15-eclipse-temurin-11</tag>
-                        </image>
-                        <image>
-                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk17</repository>
-                            <tag>6.0.1</tag>
-                            <digest>sha256:03b6a4588b2f735188b5a8d699a5736afe71b458cc2ee4b41afe1e0ed40faecd</digest>
+                            <targetRepository>cafapi/opensuse-jdk17</targetRepository>
+                            <repository>${dockerHubPublic}/cafapi/prereleases</repository>
+                            <tag>opensuse-jdk17-7.0.0-SNAPSHOT</tag>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
@@ -131,14 +110,24 @@
                             <tag>3.9.15-eclipse-temurin-17</tag>
                         </image>
                         <image>
-                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk21</repository>
-                            <tag>6.0.1</tag>
-                            <digest>sha256:c7a69e5798ffa8652713690e4b815bf0ad22111d31c6ee5853a7de47ddba7425</digest>
+                            <targetRepository>cafapi/opensuse-jdk21</targetRepository>
+                            <repository>${dockerHubPublic}/cafapi/prereleases</repository>
+                            <tag>opensuse-jdk21-7.0.0-SNAPSHOT</tag>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
                             <targetRepository>maven-jdk21</targetRepository>
                             <tag>3.9.15-eclipse-temurin-21</tag>
+                        </image>
+                        <image>
+                            <targetRepository>cafapi/opensuse-jdk25</targetRepository>
+                            <repository>${dockerHubPublic}/cafapi/prereleases</repository>
+                            <tag>opensuse-jdk25-7.0.0-SNAPSHOT</tag>
+                        </image>
+                        <image>
+                            <repository>${dockerHubPublic}/library/maven</repository>
+                            <targetRepository>maven-jdk25</targetRepository>
+                            <tag>3.9.15-eclipse-temurin-25</tag>
                         </image>
                     </imageManagement>
                 </configuration>
