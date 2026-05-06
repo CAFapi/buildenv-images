@@ -1,4 +1,4 @@
-This project creates an openSUSE-based image that includes the JDK 17, Maven, gcc and git.  It is intended to be used to build other images.
+This project creates an openSUSE-based image that includes the JDK 17, Maven and gcc.  It is intended to be used to build other images.
 
 This command can be used to create a convenience alias for using this image:
 
