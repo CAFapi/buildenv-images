@@ -100,9 +100,9 @@
                 <configuration>
                     <imageManagement>
                         <image>
-                            <targetRepository>cafapi/opensuse-jdk17</targetRepository>
-                            <repository>${dockerHubPublic}/cafapi/prereleases</repository>
-                            <tag>opensuse-jdk17-7.0.0-SNAPSHOT</tag>
+                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk17</repository>
+                            <tag>7.0.0</tag>
+                            <digest>sha256:1f7b757bbee72013542771698516b9fe792bc9aee65587ad2f10d47774043de1</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
@@ -110,9 +110,9 @@
                             <tag>3.9.15-eclipse-temurin-17</tag>
                         </image>
                         <image>
-                            <targetRepository>cafapi/opensuse-jdk21</targetRepository>
-                            <repository>${dockerHubPublic}/cafapi/prereleases</repository>
-                            <tag>opensuse-jdk21-7.0.0-SNAPSHOT</tag>
+                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk21</repository>
+                            <tag>7.0.0</tag>
+                            <digest>sha256:112d35056f78abf434c700841bd3221306c92b15438d865e78b209701d9ae309</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
@@ -120,9 +120,9 @@
                             <tag>3.9.15-eclipse-temurin-21</tag>
                         </image>
                         <image>
-                            <targetRepository>cafapi/opensuse-jdk25</targetRepository>
-                            <repository>${dockerHubPublic}/cafapi/prereleases</repository>
-                            <tag>opensuse-jdk25-7.0.0-SNAPSHOT</tag>
+                            <repository>${dockerHubPublic}/cafapi/opensuse-jdk25</repository>
+                            <tag>7.0.0</tag>
+                            <digest>sha256:4811943388ed3dcdd02af22e55250a49db144710ea5522dae1ffc3a7ded7621c</digest>
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/library/maven</repository>
