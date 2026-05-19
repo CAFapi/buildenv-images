@@ -24,7 +24,7 @@
     <parent>
         <groupId>com.github.cafapi</groupId>
         <artifactId>buildenv-images-aggregator</artifactId>
-        <version>9.0.1-SNAPSHOT</version>
+        <version>9.1.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>buildenv-cpp-image</artifactId>
@@ -64,8 +64,8 @@
                                     <http_proxy>${env.HTTP_PROXY}</http_proxy>
                                     <https_proxy>${env.HTTPS_PROXY}</https_proxy>
                                     <no_proxy>${env.NO_PROXY}</no_proxy>
-                                    <!-- Pass in buildenv-jdk17 image as param -->
-                                    <JDK17_IMAGE>${dockerCafImagePrefix}buildenv-jdk17${dockerProjectVersion}</JDK17_IMAGE>
+                                    <!-- Pass in buildenv-jdk21 image as param -->
+                                    <JDK21_IMAGE>${dockerCafImagePrefix}buildenv-jdk21${dockerProjectVersion}</JDK21_IMAGE>
                                 </args>
                             </build>
                         </image>
