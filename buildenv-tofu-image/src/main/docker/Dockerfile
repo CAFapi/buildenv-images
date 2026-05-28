@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-ARG JDK17_IMAGE
-FROM $JDK17_IMAGE
+ARG JDK21_IMAGE
+FROM $JDK21_IMAGE
 CMD ["bash"]
 
 ARG OPENTOFU_VERSION
