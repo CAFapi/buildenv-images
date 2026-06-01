@@ -1,5 +1,3 @@
-!not-ready-for-release!
-
 #### Version Number
 ${version-number}
 
@@ -7,3 +5,4 @@ ${version-number}
 - US1133119: Update OpenTofu build environment to be based on Java 21.
 
 #### Known Issues
+- None
