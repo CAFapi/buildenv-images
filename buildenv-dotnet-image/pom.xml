@@ -65,7 +65,7 @@
                                     <https_proxy>${env.HTTPS_PROXY}</https_proxy>
                                     <no_proxy>${env.NO_PROXY}</no_proxy>
                                     <!-- Pass in buildenv-jdk17 image as param -->
-                                    <JDK17_IMAGE>${dockerCafImagePrefix}buildenv-jdk17${dockerProjectVersion}</JDK17_IMAGE>
+                                    <JDK21_IMAGE>${dockerCafImagePrefix}buildenv-jdk21${dockerProjectVersion}</JDK21_IMAGE>
                                 </args>
                             </build>
                         </image>
