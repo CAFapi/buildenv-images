@@ -18,4 +18,4 @@ ARG JDK21_IMAGE
 FROM $JDK21_IMAGE
 CMD ["bash"]
 
-RUN zypper -n install python3 python3-pip
+RUN zypper -n install python3 python3-pip rpm-build
