@@ -102,7 +102,7 @@
                     <imageManagement>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk17</repository>
-                            <tag>7.0.5</tag>
+                            <tag>7.0.6</tag>
                             <digest>sha256:c35b3bf65321f9e5293ba70cf37cee74f8f77e02162f70aa56e902c38f5448ee</digest>
                         </image>
                         <image>
@@ -112,7 +112,7 @@
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk21</repository>
-                            <tag>7.0.5</tag>
+                            <tag>7.0.6</tag>
                             <digest>sha256:4e93d82fdf52b9f492a98ae1efb81e6bdcf3abd4a612ca5a0666c393b20c8d07</digest>
                         </image>
                         <image>
@@ -122,7 +122,7 @@
                         </image>
                         <image>
                             <repository>${dockerHubPublic}/cafapi/opensuse-jdk25</repository>
-                            <tag>7.0.5</tag>
+                            <tag>7.0.6</tag>
                             <digest>sha256:5a7b6d4d8122aa146278722159890607b795b7effcef62351b70ab687f183ce1</digest>
                         </image>
                         <image>
